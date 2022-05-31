@@ -1,8 +1,12 @@
 package com.cricket.pojo;
 
 public class Player {
-	String name;
-	int runs;
+	public static String name;
+	public static int runs;
 	//Map<Integer,String> overs= new HashMap();
-	int balls;
+	static int balls;
+	public Player(String name) {
+		// TODO Auto-generated constructor stub
+		this.name=name;
+	}
 }
